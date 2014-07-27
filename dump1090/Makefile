@@ -20,6 +20,8 @@ PKG_LICENSE:=BSD-3c
 
 PKG_MAINTAINER:=Rainer Ilgen <rainerilgen[at]yahoo.ca>
 
+CHMOD:=chmod
+
 include $(INCLUDE_DIR)/package.mk
 
 define Package/dump1090
